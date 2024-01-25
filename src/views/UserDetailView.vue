@@ -1,3 +1,11 @@
+<template>
+  <MainLayout>
+    <pre>
+    {{ userData }}
+    </pre>
+  </MainLayout>
+</template>
+
 <script setup>
 import MainLayout from '@/layouts/MainLayout.vue'
 /*
@@ -71,11 +79,3 @@ const userData = {
   ssn: '661-64-2976',
 }
 </script>
-
-<template>
-  <MainLayout>
-    <pre>
-    {{ userData }}
-    </pre>
-  </MainLayout>
-</template>

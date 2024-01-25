@@ -27,6 +27,10 @@ module.exports = {
   plugins: ['@typescript-eslint', 'prettier', 'import'],
   ignorePatterns: ['node_modules/', 'dist/'],
   rules: {
+    'import/no-named-as-default': 0,
+    'import/namespace': 0,
+    'import/no-named-as-default-member': 0,
+    'import/default': 0,
     'import/no-unresolved': 0, // Managed by typescript
     // 'no-console': [import.meta.env.NODE_ENV === 'production' ? 'error' : 'warn', { allow: ['error'] }],
     // 'no-debugger': import.meta.env.NODE_ENV === 'production' ? 'error' : 'warn',

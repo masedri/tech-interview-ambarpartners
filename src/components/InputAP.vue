@@ -10,7 +10,8 @@
       v-model="input"
       v-bind="$attrs"
       class="w-full bg-gray-100 px-4 py-2 rounded-lg focus:outline-none"
-      @change="showError = !validation()"
+      :class="{ 'border border-red-600': showError }"
+      @change="showError = validation && !validation()"
     />
     <span
       v-if="showError"
@@ -24,11 +25,11 @@ import { ref } from 'vue'
 
 defineProps<{
   errorMessage: string
-  validation: () => boolean
+  validation?: () => boolean
 }>()
 defineOptions({
   inheritAttrs: false,
 })
 const input = defineModel()
-const showError = ref(false)
+const showError = ref<boolean | undefined>(false)
 </script>

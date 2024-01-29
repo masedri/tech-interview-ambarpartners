@@ -5,15 +5,7 @@ module.exports = {
     parser: '@typescript-eslint/parser',
   },
   env: { node: true, 'vitest-globals/env': true },
-  extends: [
-    'plugin:vitest-globals/recommended',
-    'plugin:vue/vue3-recommended',
-    'plugin:import/recommended',
-    'plugin:import/typescript',
-    'standard',
-    '@vue/typescript/recommended',
-    'prettier',
-  ],
+  extends: ['plugin:vitest-globals/recommended', 'plugin:vue/vue3-recommended', 'plugin:import/recommended', 'plugin:import/typescript', 'standard', '@vue/typescript/recommended', 'prettier'],
   settings: {
     'import/resolver': {
       typescript: {
@@ -40,31 +32,21 @@ module.exports = {
         order: ['template', 'script', 'style'],
       },
     ],
-    'comma-dangle': ['error', 'always-multiline'],
     'import/order': [
       'error',
       {
         alphabetize: { order: 'asc', caseInsensitive: true },
         'newlines-between': 'always',
-        groups: [
-          'builtin',
-          'external',
-          'index',
-          'parent',
-          'sibling',
-          'internal',
-        ],
+        groups: ['builtin', 'external', 'index', 'parent', 'sibling', 'internal'],
       },
     ],
-    'vue/max-attributes-per-line': [
+    'no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars': 1,
+    'vue/attributes-order': [
       'error',
       {
-        singleline: {
-          max: 2,
-        },
-        multiline: {
-          max: 1,
-        },
+        order: ['DEFINITION', 'LIST_RENDERING', 'CONDITIONALS', 'RENDER_MODIFIERS', 'GLOBAL', ['UNIQUE', 'SLOT'], 'TWO_WAY_BINDING', 'OTHER_DIRECTIVES', 'OTHER_ATTR', 'EVENTS', 'CONTENT'],
+        alphabetical: true,
       },
     ],
   },

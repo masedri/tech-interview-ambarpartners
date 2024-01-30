@@ -3,9 +3,7 @@
   <MainLayout>
     <div class="bg-black flex flex-col rounded-3xl p-10 text-white h-full">
       <hr class="bg-white w-full" />
-      <section
-        class="xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight"
-      >
+      <section class="xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight">
         <p>First-class clients.</p>
         <p>First-class lawyers.</p>
         <div class="font-semibold flex items-center">
@@ -14,7 +12,10 @@
         </div>
       </section>
       <div class="h-full overflow-auto pr-3">
-        <TransitionGroup name="slide-fade" tag="div">
+        <TransitionGroup
+          name="slide-fade"
+          tag="div"
+        >
           <div
             v-if="isList"
             class="grid grid-rows-1 grid-flow-col overflow-x-scroll gap-3"
@@ -28,23 +29,25 @@
             </div>
           </div>
         </TransitionGroup>
-        <TransitionGroup name="fadeCard" tag="div">
-          <div v-if="!isList">
-            <div
-              class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 justify-items-center"
-            >
-              <CardLawerDetail :lawer-detail="lawerDetail"></CardLawerDetail>
-            </div>
-            <div
-              class="font-nothing hover:text-secondary flex items-center gap-2 justify-center h-max-content mt-5 cursor-pointer"
-              @click="isList = true"
-            >
-              <Down class="transform rotate-90"></Down>
-              Back to List of Lawers
-            </div>
+        <Transition name="fadeCard">
+          <div
+            v-if="!isList"
+            class="grid grid-cols-1 md:grid-cols-2 items-center gap-10 justify-items-center"
+          >
+            <CardLawerDetail :lawer-detail="lawerDetail"></CardLawerDetail>
           </div>
-        </TransitionGroup>
+        </Transition>
       </div>
+      <Transition name="fadeCard">
+        <div
+          v-if="!isList"
+          class="font-nothing hover:text-secondary flex items-center gap-2 justify-center h-max-content mt-5 cursor-pointer"
+          @click="isList = true"
+        >
+          <Down class="transform rotate-90"></Down>
+          Back to List of Lawers
+        </div>
+      </Transition>
     </div>
   </MainLayout>
 </template>

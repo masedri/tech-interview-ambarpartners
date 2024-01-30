@@ -48,8 +48,8 @@
         :validation="isPasswordMatch"
       />
       <button
-        class="bg-primary w-full mt-6 rounded-lg px-4 py-2 text-lg text-white font-semibold font-sans"
-        :class="{ 'bg-gray-500': !isValidForm }"
+        class="w-full mt-6 rounded-lg px-4 py-2 text-lg text-white font-semibold font-sans"
+        :class="[!isValidForm ? 'bg-gray-500' : 'bg-primary']"
         :disabled="!isValidForm"
         type="submit"
       >

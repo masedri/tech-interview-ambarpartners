@@ -16,14 +16,19 @@ const router = createRouter({
       component: () => import('@/views/RegisterFormView.vue'),
     },
     {
-      path: '/user-detail',
-      name: 'user-detail',
-      component: () => import('@/views/UserDetailView.vue'),
+      path: '/lawers-detail',
+      name: 'lawers-detail',
+      component: () => import('@/views/LawersDetailView.vue'),
     },
     {
       path: '/event-calendar',
       name: 'event-calendar',
       component: () => import('@/views/EventCalendarView.vue'),
+    },
+    {
+      path: '/stepper-info',
+      name: 'stepper-info',
+      component: () => import('@/views/StepperInfo.vue'),
     },
   ],
 })

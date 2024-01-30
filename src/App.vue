@@ -1,3 +1,13 @@
+<template>
+  <div id="app" class="h-screen w-screen">
+    <router-view v-slot="{ Component }">
+      <Transition name="fade" mode="out-in">
+        <component :is="Component" />
+      </Transition>
+    </router-view>
+  </div>
+</template>
+
 <script setup>
 import { RouterView } from 'vue-router'
 
@@ -5,9 +15,15 @@ defineOptions({
   name: 'MainApp',
 })
 </script>
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+  transition-delay: 0.3s;
+}
 
-<template>
-  <div id="app" class="h-screen w-screen">
-    <router-view />
-  </div>
-</template>
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
+</style>

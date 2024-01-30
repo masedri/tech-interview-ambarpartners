@@ -2,5 +2,6 @@ export type Form = {
   name: string
   email: string
   password: string
-  confirmPassword: string
 }
+
+export type ValidMessage = Form & { confirmPassword: string }

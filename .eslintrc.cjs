@@ -40,7 +40,6 @@ module.exports = {
         order: ['template', 'script', 'style'],
       },
     ],
-    'comma-dangle': ['error', 'always-multiline'],
     'import/order': [
       'error',
       {
@@ -67,5 +66,7 @@ module.exports = {
         },
       },
     ],
+    'no-use-before-define': 'off',
+    '@typescript-eslint/no-use-before-define': 'error',
   },
 }

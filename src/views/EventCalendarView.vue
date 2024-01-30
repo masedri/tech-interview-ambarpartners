@@ -24,18 +24,31 @@
       </button>
     </div>
     <div class="grid grid-col-7 gap-1">
-      <div v-for="weekDay in weekDays" class="text-center">
+      <div
+        v-for="(weekDay, index) in weekDays"
+        :key="index"
+        class="text-center"
+      >
         <div>{{ weekDay }}</div>
       </div>
     </div>
+    <div
+      v-for="prepend in daystoPrepend"
+      :key="prepend"
+    >
+      {{ prepend }}
+    </div>
     <div class="grid grid-cols-7">
-      <div v-for="prepend in daystoPrepend" />
       <div
-        v-for="day in days"
+        v-for="(day, index) in days"
+        :key="index"
         class="border border-slate-200 flex flex-col h-32"
       >
-        <div :class="[day.isToday() ? 'bg-red-300' : '']" class="text-center">
-          <div>{{ day.formatTo('D') }}</div>
+        <div
+          class="text-center"
+          :class="[day.isToday() ? 'bg-red-300' : '']"
+        >
+          <div>{{ day.format('D') }}</div>
         </div>
       </div>
     </div>
@@ -43,8 +56,8 @@
 </template>
 
 <script setup>
-import { dayjs } from 'dayjs'
-import { isToday } from 'dayjs/plugin/isToday'
+import dayjs from 'dayjs'
+import isToday from 'dayjs/plugin/isToday'
 import { computed, ref } from 'vue'
 
 import MainLayout from '@/layouts/MainLayout.vue'
@@ -106,7 +119,6 @@ const daystoPrepend = computed(() => {
   const startOfMonth = viewDate.value.startOf('month')
   const startOfFirstWeek = startOfMonth.startOf('week')
   const daysToFirstDay = startOfMonth.diff(startOfFirstWeek, 'day')
-
   return Array.from(new Array(daysToFirstDay).keys())
 })
 
@@ -131,13 +143,5 @@ const reset = function () {
   viewDate.value = dayjs()
 }
 
-const weekDays = [
-  'Sunday',
-  'Monday',
-  'Tuesday',
-  'Wednesday',
-  'Thursday',
-  'Friday',
-  'Saturday',
-]
+const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
 </script>

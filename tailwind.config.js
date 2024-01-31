@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#000000',
-        secondary: '#FFAE00',
+        primary: 'var(--color-primary)',
+        secondary: 'var(--color-secondary)',
       },
       fontFamily: {
         nothing: ['Nothing You Could Do'],

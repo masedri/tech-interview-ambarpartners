@@ -1,0 +1,317 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`LawersDetailView > renders correctly when isList is false 1`] = `
+"<div data-v-0a36b9eb=\\"\\" class=\\"h-screen w-screen flex flex-col\\">
+  <nav class=\\"py-4 px-6 w-full bg-black\\">
+    <div class=\\"w-60 cursor-pointer hover:scale-105 transition\\"><svg xmlns=\\"http://www.w3.org/2000/svg\\" fill=\\"#ffff\\" style=\\"display: block;\\" viewBox=\\"0 0 240 48\\" class=\\"fill-white\\">
+        <path d=\\"m2.045 31.221 1.999-4.453h7.406l2.022 4.453h2.158L8.747 16.386H6.884L0 31.22zm5.634-12.518h.136l2.93 6.475H4.749zM34.326 31.221V16.386h-1.999l-5.543 9.337h-.046l-5.543-9.337h-2.09V31.22h1.885V19.975h.114l5.362 9.02h.409l5.361-9.02h.114v11.246zM48.664 31.221c1.977 0 3.022-.523 3.817-1.272.954-.909 1.34-2 1.34-3.067 0-1.818-1.09-3.363-2.885-3.726 1.227-.409 2.113-1.704 2.113-3.135 0-.909-.364-1.704-1-2.34-.772-.773-1.953-1.295-3.612-1.295h-8.61V31.22zm.364-6.884c.818 0 1.545.341 2.044.864.432.431.705 1.022.705 1.658 0 .659-.273 1.318-.773 1.795-.568.568-1.408.818-2.272.818h-6.929v-5.135zm-.795-6.202c.931 0 1.635.227 2.158.727.386.409.613.932.613 1.522 0 .636-.25 1.25-.704 1.704s-1.09.659-1.795.659h-6.702v-4.612zM58.464 31.221l2-4.453h7.406l2.022 4.453h2.158l-6.884-14.835h-1.863L56.42 31.22zm5.634-12.518h.137l2.93 6.475h-5.997zM77.5 31.221v-6.043h6.044l3.408 6.043H89.2l-3.658-6.293c2.09-.568 3.453-2.136 3.453-4.135 0-1.136-.408-2.135-1.135-2.908-.932-.977-2.25-1.5-4.158-1.5h-8.179v14.836zm6.203-13.086c1.022 0 1.908.182 2.635.909a2.52 2.52 0 0 1 .705 1.726c0 1.454-1.205 2.659-2.84 2.659H77.5v-5.294zM110.268 31.222v-6.044h6.043c1.84 0 3.089-.5 3.975-1.363a4.16 4.16 0 0 0 1.318-3.067c0-1.045-.386-2.045-1.136-2.862-.931-.977-2.226-1.5-4.157-1.5h-8.02v14.836zm6.043-13.086c.977 0 1.931.159 2.635.908.454.5.704 1.068.704 1.727a2.53 2.53 0 0 1-.795 1.817c-.772.727-1.704.841-2.544.841h-6.043v-5.293zM124.333 31.222l1.999-4.453h7.406l2.022 4.453h2.158l-6.883-14.836h-1.863l-6.884 14.836zm5.634-12.519h.136l2.931 6.475h-5.998zM143.369 31.222v-6.044h6.043l3.408 6.043h2.249l-3.657-6.293c2.09-.568 3.453-2.135 3.453-4.134 0-1.136-.409-2.136-1.136-2.908-.931-.977-2.249-1.5-4.157-1.5h-8.179v14.836zm6.203-13.086c1.022 0 1.908.181 2.635.908.432.455.704 1.068.704 1.727 0 1.454-1.204 2.658-2.84 2.658h-6.702v-5.293zM157.275 18.136h5.77v13.086h1.977V18.136h5.747v-1.75h-13.494zM185.474 16.386v11.382h-.023l-9.428-11.382h-1.795v14.836h1.977V19.84h.023l9.428 11.381h1.795V16.386zM200.928 22.543h-5.998v-4.407h9.951v-1.75h-11.927v14.836h12.449v-1.75H194.93v-5.18h5.998zM211.215 31.222v-6.044h6.043l3.408 6.043h2.249l-3.658-6.293c2.09-.568 3.453-2.135 3.453-4.134 0-1.136-.409-2.136-1.136-2.908-.931-.977-2.249-1.5-4.157-1.5h-8.179v14.836zm6.202-13.086c1.022 0 1.908.181 2.635.908.432.455.705 1.068.705 1.727 0 1.454-1.205 2.658-2.84 2.658h-6.702v-5.293zM238.91 18.158c-1.136-.931-3.544-2.158-6.611-2.158-2.658 0-5.907 1.022-5.907 4.407 0 3.43 3.635 3.658 6.838 3.863 2.522.181 4.794.522 4.794 2.749 0 1.999-2.09 2.908-4.612 2.908-3.317 0-5.384-1.568-6.634-2.727l-1.204 1.363c1.613 1.477 4.022 3.045 7.793 3.045 3.567 0 6.634-1.386 6.634-4.84 0-3.975-4.181-4.225-6.771-4.407-2.408-.136-4.861-.227-4.861-2.135 0-1.863 1.954-2.545 3.862-2.545 2.726 0 4.612 1.045 5.498 1.84z\\"></path>
+        <path fill=\\"#F5B840\\" d=\\"M101.485 25.937a3.245 3.245 0 1 1-6.49 0 3.245 3.245 0 0 1 6.49 0\\"></path>
+      </svg></div>
+  </nav>
+  <div class=\\"overflow-y-auto flex flex-1\\">
+    <main class=\\"flex-1 overflow-y-auto p-4\\">
+      <div data-v-0a36b9eb=\\"\\" class=\\"bg-black flex flex-col rounded-3xl p-10 text-white h-full md:gap-10\\">
+        <hr data-v-0a36b9eb=\\"\\" class=\\"bg-white w-full\\">
+        <section data-v-0a36b9eb=\\"\\" class=\\"xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight gap-1 md:gap-4 flex flex-col\\">
+          <p data-v-0a36b9eb=\\"\\">First-class clients.</p>
+          <p data-v-0a36b9eb=\\"\\">First-class lawyers.</p>
+          <div data-v-0a36b9eb=\\"\\" class=\\"font-semibold flex items-center\\">
+            <p data-v-0a36b9eb=\\"\\">Exceptional team</p>
+            <p data-v-0a36b9eb=\\"\\" class=\\"text-secondary\\">.</p>
+          </div>
+        </section>
+        <div data-v-0a36b9eb=\\"\\" class=\\"h-full overflow-auto pr-3\\">
+          <transition-group-stub data-v-0a36b9eb=\\"\\" name=\\"slide-fade\\" tag=\\"div\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+            <div data-v-0a36b9eb=\\"\\" class=\\"grid grid-rows-1 grid-flow-col overflow-x-scroll gap-3\\">
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6389591034560512\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Daphnee</p>
+                      <p>Stoltenberg</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Gerhold - Pacocha</p>
+                    <p class=\\"italic\\">Dynamic Tactics Technician</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=5553447032061952\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Lou</p>
+                      <p>Walsh</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Smith - Rodriguez</p>
+                    <p class=\\"italic\\">District Metrics Facilitator</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=4905958371229696\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Jody</p>
+                      <p>Zemlak</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Deckow, Miller and Kohler</p>
+                    <p class=\\"italic\\">Human Intranet Analyst</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6129850511261696\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Jonas</p>
+                      <p>Lehner</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Muller, Daniel and Farrell</p>
+                    <p class=\\"italic\\">Corporate Usability Orchestrator</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=3903026272141312\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Leila</p>
+                      <p>Watsica</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Nicolas Inc</p>
+                    <p class=\\"italic\\">National Division Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6751536346562560\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Harold</p>
+                      <p>Davis</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Bergstrom - Steuber</p>
+                    <p class=\\"italic\\">Future Quality Officer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=7601806439874560\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Abraham</p>
+                      <p>Kautzer</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Homenick - Swift</p>
+                    <p class=\\"italic\\">Principal Group Consultant</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=3082064517660672\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Christophe</p>
+                      <p>Maggio</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Monahan LLC</p>
+                    <p class=\\"italic\\">Forward Paradigm Planner</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6635645080436736\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Efren</p>
+                      <p>Gleichner</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Wolf - Reynolds</p>
+                    <p class=\\"italic\\">International Brand Planner</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=8448325885886464\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Rosalia</p>
+                      <p>Jerde</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Considine - Ledner</p>
+                    <p class=\\"italic\\">Internal Data Technician</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </transition-group-stub>
+          <transition-stub data-v-0a36b9eb=\\"\\" name=\\"fadeCard\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+            <!--v-if-->
+          </transition-stub>
+        </div>
+        <transition-stub data-v-0a36b9eb=\\"\\" name=\\"fadeCard\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+          <!--v-if-->
+        </transition-stub>
+      </div>
+    </main>
+  </div>
+</div>"
+`;
+
+exports[`LawersDetailView > renders correctly when isList is true 1`] = `
+"<div data-v-0a36b9eb=\\"\\" class=\\"h-screen w-screen flex flex-col\\">
+  <nav class=\\"py-4 px-6 w-full bg-black\\">
+    <div class=\\"w-60 cursor-pointer hover:scale-105 transition\\"><svg xmlns=\\"http://www.w3.org/2000/svg\\" fill=\\"#ffff\\" style=\\"display: block;\\" viewBox=\\"0 0 240 48\\" class=\\"fill-white\\">
+        <path d=\\"m2.045 31.221 1.999-4.453h7.406l2.022 4.453h2.158L8.747 16.386H6.884L0 31.22zm5.634-12.518h.136l2.93 6.475H4.749zM34.326 31.221V16.386h-1.999l-5.543 9.337h-.046l-5.543-9.337h-2.09V31.22h1.885V19.975h.114l5.362 9.02h.409l5.361-9.02h.114v11.246zM48.664 31.221c1.977 0 3.022-.523 3.817-1.272.954-.909 1.34-2 1.34-3.067 0-1.818-1.09-3.363-2.885-3.726 1.227-.409 2.113-1.704 2.113-3.135 0-.909-.364-1.704-1-2.34-.772-.773-1.953-1.295-3.612-1.295h-8.61V31.22zm.364-6.884c.818 0 1.545.341 2.044.864.432.431.705 1.022.705 1.658 0 .659-.273 1.318-.773 1.795-.568.568-1.408.818-2.272.818h-6.929v-5.135zm-.795-6.202c.931 0 1.635.227 2.158.727.386.409.613.932.613 1.522 0 .636-.25 1.25-.704 1.704s-1.09.659-1.795.659h-6.702v-4.612zM58.464 31.221l2-4.453h7.406l2.022 4.453h2.158l-6.884-14.835h-1.863L56.42 31.22zm5.634-12.518h.137l2.93 6.475h-5.997zM77.5 31.221v-6.043h6.044l3.408 6.043H89.2l-3.658-6.293c2.09-.568 3.453-2.136 3.453-4.135 0-1.136-.408-2.135-1.135-2.908-.932-.977-2.25-1.5-4.158-1.5h-8.179v14.836zm6.203-13.086c1.022 0 1.908.182 2.635.909a2.52 2.52 0 0 1 .705 1.726c0 1.454-1.205 2.659-2.84 2.659H77.5v-5.294zM110.268 31.222v-6.044h6.043c1.84 0 3.089-.5 3.975-1.363a4.16 4.16 0 0 0 1.318-3.067c0-1.045-.386-2.045-1.136-2.862-.931-.977-2.226-1.5-4.157-1.5h-8.02v14.836zm6.043-13.086c.977 0 1.931.159 2.635.908.454.5.704 1.068.704 1.727a2.53 2.53 0 0 1-.795 1.817c-.772.727-1.704.841-2.544.841h-6.043v-5.293zM124.333 31.222l1.999-4.453h7.406l2.022 4.453h2.158l-6.883-14.836h-1.863l-6.884 14.836zm5.634-12.519h.136l2.931 6.475h-5.998zM143.369 31.222v-6.044h6.043l3.408 6.043h2.249l-3.657-6.293c2.09-.568 3.453-2.135 3.453-4.134 0-1.136-.409-2.136-1.136-2.908-.931-.977-2.249-1.5-4.157-1.5h-8.179v14.836zm6.203-13.086c1.022 0 1.908.181 2.635.908.432.455.704 1.068.704 1.727 0 1.454-1.204 2.658-2.84 2.658h-6.702v-5.293zM157.275 18.136h5.77v13.086h1.977V18.136h5.747v-1.75h-13.494zM185.474 16.386v11.382h-.023l-9.428-11.382h-1.795v14.836h1.977V19.84h.023l9.428 11.381h1.795V16.386zM200.928 22.543h-5.998v-4.407h9.951v-1.75h-11.927v14.836h12.449v-1.75H194.93v-5.18h5.998zM211.215 31.222v-6.044h6.043l3.408 6.043h2.249l-3.658-6.293c2.09-.568 3.453-2.135 3.453-4.134 0-1.136-.409-2.136-1.136-2.908-.931-.977-2.249-1.5-4.157-1.5h-8.179v14.836zm6.202-13.086c1.022 0 1.908.181 2.635.908.432.455.705 1.068.705 1.727 0 1.454-1.205 2.658-2.84 2.658h-6.702v-5.293zM238.91 18.158c-1.136-.931-3.544-2.158-6.611-2.158-2.658 0-5.907 1.022-5.907 4.407 0 3.43 3.635 3.658 6.838 3.863 2.522.181 4.794.522 4.794 2.749 0 1.999-2.09 2.908-4.612 2.908-3.317 0-5.384-1.568-6.634-2.727l-1.204 1.363c1.613 1.477 4.022 3.045 7.793 3.045 3.567 0 6.634-1.386 6.634-4.84 0-3.975-4.181-4.225-6.771-4.407-2.408-.136-4.861-.227-4.861-2.135 0-1.863 1.954-2.545 3.862-2.545 2.726 0 4.612 1.045 5.498 1.84z\\"></path>
+        <path fill=\\"#F5B840\\" d=\\"M101.485 25.937a3.245 3.245 0 1 1-6.49 0 3.245 3.245 0 0 1 6.49 0\\"></path>
+      </svg></div>
+  </nav>
+  <div class=\\"overflow-y-auto flex flex-1\\">
+    <main class=\\"flex-1 overflow-y-auto p-4\\">
+      <div data-v-0a36b9eb=\\"\\" class=\\"bg-black flex flex-col rounded-3xl p-10 text-white h-full md:gap-10\\">
+        <hr data-v-0a36b9eb=\\"\\" class=\\"bg-white w-full\\">
+        <section data-v-0a36b9eb=\\"\\" class=\\"xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight gap-1 md:gap-4 flex flex-col\\">
+          <p data-v-0a36b9eb=\\"\\">First-class clients.</p>
+          <p data-v-0a36b9eb=\\"\\">First-class lawyers.</p>
+          <div data-v-0a36b9eb=\\"\\" class=\\"font-semibold flex items-center\\">
+            <p data-v-0a36b9eb=\\"\\">Exceptional team</p>
+            <p data-v-0a36b9eb=\\"\\" class=\\"text-secondary\\">.</p>
+          </div>
+        </section>
+        <div data-v-0a36b9eb=\\"\\" class=\\"h-full overflow-auto pr-3\\">
+          <transition-group-stub data-v-0a36b9eb=\\"\\" name=\\"slide-fade\\" tag=\\"div\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+            <div data-v-0a36b9eb=\\"\\" class=\\"grid grid-rows-1 grid-flow-col overflow-x-scroll gap-3\\">
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=2155910384320512\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Moses</p>
+                      <p>Klein</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Smith LLC</p>
+                    <p class=\\"italic\\">Legacy Identity Planner</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=7508750392885248\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Willy</p>
+                      <p>Waelchi</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Fay, Langworth and Haag</p>
+                    <p class=\\"italic\\">National Interactions Consultant</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6687614373462016\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Haleigh</p>
+                      <p>Bogisich</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Franecki - Farrell</p>
+                    <p class=\\"italic\\">Principal Metrics Assistant</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=1518706330959872\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Carmelo</p>
+                      <p>Kunde</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Renner and Sons</p>
+                    <p class=\\"italic\\">Product Applications Administrator</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=8592300454182912\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Russ</p>
+                      <p>Pfannerstill</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Cronin, Hoppe and Heaney</p>
+                    <p class=\\"italic\\">Corporate Solutions Designer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=6533947452293120\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Lambert</p>
+                      <p>Murazik</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Raynor, Feil and Watsica</p>
+                    <p class=\\"italic\\">Regional Research Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=4710370235121664\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Fabian</p>
+                      <p>Emard</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Ruecker - Jacobi</p>
+                    <p class=\\"italic\\">Chief Research Developer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=3525331757563904\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Kris</p>
+                      <p>Beahan-Casper</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Fritsch Inc</p>
+                    <p class=\\"italic\\">Global Branding Producer</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=3698631722926080\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Ruthie</p>
+                      <p>Grimes</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Kunze, Turner and Koss</p>
+                    <p class=\\"italic\\">Forward Paradigm Associate</p>
+                  </div>
+                </div>
+              </div>
+              <div data-v-0a36b9eb=\\"\\">
+                <div data-v-0a36b9eb=\\"\\" class=\\"flex cursor-pointer relative h-[450px] min-w-[280px] mb-4 xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl\\"><img src=\\"https://loremflickr.com/640/480/cats?lock=802940663103488\\" class=\\"object-cover rounded-xl opacity-30 hover:opacity-100 transition\\">
+                  <div class=\\"flex text-white text-center absolute justify-center w-full flex-col bottom-0 p-5 font-mono items-center bg-zinc-950 opacity-70 hover:opacity-100\\">
+                    <div class=\\"flex gap-1 font-bold\\">
+                      <p>Shania</p>
+                      <p>Jakubowski</p>
+                    </div>
+                    <p class=\\"font-nothing\\">Bernhard Inc</p>
+                    <p class=\\"italic\\">District Assurance Developer</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </transition-group-stub>
+          <transition-stub data-v-0a36b9eb=\\"\\" name=\\"fadeCard\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+            <!--v-if-->
+          </transition-stub>
+        </div>
+        <transition-stub data-v-0a36b9eb=\\"\\" name=\\"fadeCard\\" appear=\\"false\\" persisted=\\"false\\" css=\\"true\\">
+          <!--v-if-->
+        </transition-stub>
+      </div>
+    </main>
+  </div>
+</div>"
+`;

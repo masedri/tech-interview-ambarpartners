@@ -2,7 +2,7 @@
   <div class="flex h-[500px] min-w-[280px] xl:h-[500px] xl:w-[375px] md:h-[500px] md:w-[360px] 2xl:h-[500px] 2xl:w-[400px] rounded-xl">
     <img
       class="object-cover rounded-xl"
-      :src="lawerDetail.personalInfo.image"
+      :src="lawerDetail.personalInfo?.image"
       @error="(e: Event) => ((e.target as HTMLImageElement).src = 'https://www.igaxes.org/wp-content/uploads/2018/04/img-default.jpg')"
     />
   </div>

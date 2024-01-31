@@ -1,13 +1,6 @@
 import { faker } from '@faker-js/faker'
 
-import type {
-  FinancialInfo,
-  LocationInfo,
-  PersonalInfo,
-  PhysicalInfo,
-  Lawer,
-  WorkInfo,
-} from '@/types'
+import type { FinancialInfo, LocationInfo, PersonalInfo, PhysicalInfo, Lawer, WorkInfo } from '@/core/types'
 
 const getPersonalInfo = (): PersonalInfo => {
   return {
@@ -22,16 +15,7 @@ const getPersonalInfo = (): PersonalInfo => {
     password: faker.internet.password(),
     birthDate: faker.date.birthdate(),
     image: faker.image.urlLoremFlickr({ category: 'cats' }),
-    bloodGroup: faker.helpers.arrayElement([
-      'A+',
-      'B+',
-      'AB+',
-      'O+',
-      'A-',
-      'B-',
-      'AB-',
-      'O-',
-    ]),
+    bloodGroup: faker.helpers.arrayElement(['A+', 'B+', 'AB+', 'O+', 'A-', 'B-', 'AB-', 'O-']),
     university: faker.company.name(),
   }
 }
@@ -67,11 +51,7 @@ const getLocationInfo = (): LocationInfo => {
 const getFinancialInfo = (): FinancialInfo => {
   return {
     bank: {
-      cardExpire: faker.date
-        .future({ years: 3 })
-        .toLocaleDateString()
-        .split('/')
-        .join('-'),
+      cardExpire: faker.date.future({ years: 3 }).toLocaleDateString().split('/').join('-'),
       cardNumber: faker.finance.creditCardNumber(),
       cardType: faker.helpers.arrayElement(['visa', 'mastercard']),
       currency: faker.finance.currencyCode(),
@@ -114,5 +94,4 @@ function createRandomLawer(): Lawer {
   }
 }
 
-export const generateRamdonLawers = (lawers: number) =>
-  Array.from({ length: lawers }, () => createRandomLawer())
+export const generateRamdonLawers = (lawers: number) => Array.from({ length: lawers }, () => createRandomLawer())

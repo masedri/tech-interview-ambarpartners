@@ -100,7 +100,7 @@ import isToday from 'dayjs/plugin/isToday'
 import { computed, ref, type Ref } from 'vue'
 
 import Down from '@/assets/icons/down.svg'
-import MainLayout from '@/layouts/MainLayout.vue'
+import MainLayout from '@/core/layouts/MainLayout.vue'
 
 type EventType = 'concert' | 'meetup' | 'cinema' | 'other'
 interface Event {

@@ -1,6 +1,6 @@
 import { computed, reactive, ref } from 'vue'
 
-import type { Form } from '@/types'
+import type { Form } from '@/core/types'
 
 const MIN_PASSWORD_LENGTH = 8
 

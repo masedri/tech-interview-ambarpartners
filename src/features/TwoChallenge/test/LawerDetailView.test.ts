@@ -1,7 +1,7 @@
 import { mount } from '@vue/test-utils'
 import { describe, it, expect } from 'vitest'
 
-import { generateRamdonLawers } from '@/utils'
+import { generateRamdonLawers } from '@/core/utils'
 import LawersDetailView from '@/views/LawersDetailView.vue'
 
 describe('LawersDetailView', () => {

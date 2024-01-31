@@ -33,3 +33,4 @@ const props = defineProps<{
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 const { id, ...keys } = props.lawerDetail
 </script>
+@/core/types

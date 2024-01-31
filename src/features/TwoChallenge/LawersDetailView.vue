@@ -55,11 +55,12 @@
 import { ref } from 'vue'
 
 import Down from '@/assets/icons/down.svg'
+import { generateRamdonLawers } from '@/utils'
+
 import CardLawer from '@/components/CardLawer.vue'
 import CardLawerDetail from '@/components/CardLawerDetail.vue'
 import MainLayout from '@/layouts/MainLayout.vue'
 import type { Lawer } from '@/types'
-import { generateRamdonLawers } from '@/utils'
 
 /*
 Reto 2: Vista de Datos del Usuario.
@@ -122,3 +123,4 @@ const goToListView = () => {
   opacity: 0;
 }
 </style>
+@/core/types @/core/utils

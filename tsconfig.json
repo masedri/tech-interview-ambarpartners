@@ -6,5 +6,6 @@
     "paths": {
       "@/*": ["./src/*"], // enables us to use @components/MyComponent
     },
+    "types": ["vitest/globals"],
   },
 }

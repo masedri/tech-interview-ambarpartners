@@ -60,6 +60,9 @@ Algunas mejoras para el proyecto:
 - Mejorar la interfaz y funcionalidad del calendario para la creación, edición y eliminación de eventos.
 - Mejora de Arquitectura: Para una mejora a nivel de arquitectura basada en Screaming architecture y Arquitectura Hexagonal, y features folders dirigirse a la rama scaffolding-arquitecture.
 
+  ![Screenshot 2024-01-31 122601](https://github.com/masedri/tech-interview-ambarpartners/assets/21109779/1faa81f2-5a9c-48d3-81bb-60f587eb748f)
+
+
 ¡Gracias por contribuir al proyecto!
 
 ## Contribuciones

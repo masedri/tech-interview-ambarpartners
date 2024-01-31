@@ -2,7 +2,7 @@
   <div class="h-screen w-screen flex flex-col">
     <AppNavbar />
 
-    <div class="overflow-y-auto flex flex-1">
+    <div class="overflow-y-auto flex flex-1 mt-20">
       <main class="flex-1 overflow-y-auto p-4">
         <slot />
       </main>

@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="py-4 px-6 w-full"
+    class="py-4 px-6 w-full fixed"
     :class="[isWhite ? 'bg-white' : 'bg-black']"
   >
     <div class="w-60 cursor-pointer hover:scale-105 transition">

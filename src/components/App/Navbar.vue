@@ -4,10 +4,10 @@
     :class="[isWhite ? 'bg-white' : 'bg-black']"
   >
     <div class="w-60 cursor-pointer hover:scale-105 transition">
-      <AmabarParners
+      <AmbarPartners
         :class="[isWhite ? 'fill-black' : 'fill-white']"
         @click="goToHome"
-      ></AmabarParners>
+      ></AmbarPartners>
     </div>
   </nav>
 </template>
@@ -16,7 +16,7 @@
 import { computed } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 
-import AmabarParners from '@/assets/icons/AmbarPartners.svg'
+import AmbarPartners from '@/assets/icons/AmbarPartners.svg'
 
 defineOptions({
   name: 'AppNavbar',

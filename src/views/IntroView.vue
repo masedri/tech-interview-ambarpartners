@@ -1,12 +1,13 @@
 <template>
-  <div class="h-full overflow-scroll relative" @scroll="handleScroll">
+  <div
+    class="h-full overflow-scroll relative"
+    @scroll="handleScroll"
+  >
     <div class="h-[200%] absolute flex flex-col items-center w-full top-96">
       <div class="w-72 md:w-96">
-        <AmabarParners class="fill-black"></AmabarParners>
+        <AmbarPartners class="fill-black"></AmbarPartners>
       </div>
-      <div class="text-secondary text-3xl capitalize font-nothing">
-        Frontend challenge
-      </div>
+      <div class="text-secondary text-3xl capitalize font-nothing">Frontend challenge</div>
       <router-link :to="{ name: 'stepper-info' }">
         <Down class="mt-10 animate-bounce cursor-pointer"> </Down>
       </router-link>
@@ -17,7 +18,7 @@
 <script setup>
 import { useRouter } from 'vue-router'
 
-import AmabarParners from '@/assets/icons/AmbarPartners.svg'
+import AmbarPartners from '@/assets/icons/AmbarPartners.svg'
 import Down from '@/assets/icons/down.svg'
 
 const router = useRouter()

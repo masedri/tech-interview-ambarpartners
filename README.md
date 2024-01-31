@@ -1,10 +1,19 @@
 # Tech Interview - Ambar Partners
 
-Welcome to the Tech Interview repository by Ambar Partners. This project is designed to help you prepare for technical interviews, providing a variety of common coding problems that you may encounter during employment selection processes in the technology industry.
+Bienvenido al repositorio de Tech Interview por Ambar Partners. Este proyecto está diseñado para ayudarte a prepararte para entrevistas técnicas, proporcionando una variedad de problemas comunes de codificación que podrías encontrar durante procesos de selección de empleo en la industria tecnológica.
 
-## Technologies Used
+## Despliegue
 
-This project utilizes the following technologies and dependencies:
+El proyecto está desplegado en [https://ambar-partners-challenge.netlify.app/](https://ambar-partners-challenge.netlify.app/).
+
+## Metodología de Desarrollo
+
+Este proyecto sigue la metodología de Git Flow, organizando el trabajo en ramas de características para un desarrollo más estructurado y colaborativo, se ha usado pull request y merge squash para la integración de nuevas funcionalidades.
+
+Uso de TypeScript: Se eligió TypeScript por sus beneficios en el desarrollo, como sugerencias de tipos y validaciones proporcionadas por el linter durante el desarrollo. Esto mejora la calidad y mantenimiento del código al tiempo que facilita la colaboración entre el equipo de desarrollo.
+¡Gracias por contribuir al proyecto!
+
+## Tecnologías Utilizadas
 
 - **Frontend:**
 
@@ -13,13 +22,16 @@ This project utilizes the following technologies and dependencies:
   - Tailwind CSS (v3.3.5)
   - Day.js (v1.11.10)
 
-- **Development and Tools:**
+- **Desarrollo y Herramientas:**
 
   - TypeScript (v5.3.3)
   - Vite (v4.4.11)
   - Prettier (v3.2.4)
   - ESLint (v8.49.0)
   - Husky (v9.0.5)
+  - Vite SVG Loader (v5.1.0)
+  - Commitlint (v18.6.0)
+  - Faker.js (v8.4.0)
 
 - **Testing:**
 
@@ -27,55 +39,33 @@ This project utilizes the following technologies and dependencies:
   - Vue Test Utils (v2.4.1)
   - Cypress (v13.3.1)
 
-- **Build and Load Tools:**
+## Guía de Estilos de Vue.js
 
-  - Vite SVG Loader (v5.1.0)
-  - PostCSS (v8.4.31)
-  - Autoprefixer (v10.4.16)
+Se sigue la guía de estilos recomendada para el desarrollo en Vue.js, asegurando coherencia y calidad en el código.
+[https://vuejs.org/style-guide/rules-recommended.html](https://vuejs.org/style-guide/rules-recommended.html)
 
-- **Commit Communication Tools:**
-  - Commitlint (v18.6.0)
-  - Conventional Commitlint Configuration (v18.6.0)
+## Datos Mockeados
 
-## Scripts to Start the Project
+Faker.js se utiliza para la generación de datos mockeados aleatorios.
 
-Follow these steps to get the project up and running in your local environment:
+## Teleport
 
-1. **Clone the Repository:**
+Teleport se aprovecha para una gestión eficiente de la interfaz.
 
-   ```bash
-   git clone https://github.com/masedri/tech-interview-ambarpartners.git
-   ```
+## Posibles Mejoras
 
-2. **Install Dependencies:**
+Algunas mejoras para el proyecto:
 
-   ```bash
-   cd tech-interview-ambarpartners
-   npm install
-   ```
+- Implementar _infinite scroll_ utilizando Intersection Observer.
+- Mejorar la interfaz y funcionalidad del calendario para la creación, edición y eliminación de eventos.
+- Mejora de Arquitectura: Para una mejora a nivel de arquitectura basada en Screaming architecture y Arquitectura Hexagonal, y features folders dirigirse a la rama scaffolding-arquitecture.
 
-3. **Start the Application:**
-   ```bash
-   npm run dev
-   ```
+¡Gracias por contribuir al proyecto!
 
-Visit [http://localhost:3000](http://localhost:3000) in your browser to explore the application.
+## Contribuciones
 
-## Best Practices
+Contribuciones son bienvenidas. Si encuentras errores, tienes sugerencias o deseas agregar nuevas preguntas de entrevista, por favor crea un issue o envía un pull request.
 
-Some recommendations for contributing and maintaining high-quality code:
+## Licencia
 
-- **Follow Coding Standards:** Ensure you follow the ESLint and Prettier configurations and standards defined in the project.
-- **Unit and End-to-End Testing:** Add unit and end-to-end tests for new functionalities.
-- **Modularity:** Divide the code into modules and functions to improve readability and maintenance.
-- **Meaningful Comments:** Use comments to explain design decisions or parts of the code that might be difficult to understand.
-
-Thank you for contributing to the project!
-
-## Contributions
-
-Contributions are welcome. If you find bugs, have suggestions, or want to add new interview questions, please create an issue or submit a pull request.
-
-## License
-
-This project is under the MIT license. Refer to the [LICENSE](LICENSE) file for more details.
+Este proyecto está bajo la licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.

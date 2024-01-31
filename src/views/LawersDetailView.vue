@@ -1,9 +1,8 @@
-<!-- eslint-disable vue/max-attributes-per-line -->
 <template>
   <MainLayout>
-    <div class="bg-black flex flex-col rounded-3xl p-10 text-white h-full">
+    <div class="bg-black flex flex-col rounded-3xl p-10 text-white h-full md:gap-10">
       <hr class="bg-white w-full" />
-      <section class="xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight">
+      <section class="xl:text-5xl md:text-4xl text-2xl font-extralight p-10 tracking-tighter leading-tight gap-1 md:gap-4 flex flex-col">
         <p>First-class clients.</p>
         <p>First-class lawyers.</p>
         <div class="font-semibold flex items-center">
@@ -42,7 +41,7 @@
         <div
           v-if="!isList"
           class="font-nothing hover:text-secondary flex items-center gap-2 justify-center h-max-content mt-5 cursor-pointer"
-          @click="isList = true"
+          @click="goToListView"
         >
           <Down class="transform rotate-90"></Down>
           Back to List of Lawers
@@ -90,6 +89,9 @@ const getInfoLawer = (lawer: Lawer) => {
 const detailLawer = (lawer: Lawer) => {
   isList.value = false
   lawerDetail.value = lawer
+}
+const goToListView = () => {
+  isList.value = true
 }
 </script>
 <style scoped>

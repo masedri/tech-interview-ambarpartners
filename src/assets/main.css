@@ -5,6 +5,7 @@
 
 :root {
   --color-secondary: #ffae00;
+  --color-primary: #000000;
 }
 
 ::-webkit-scrollbar {

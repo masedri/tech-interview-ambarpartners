@@ -1,7 +1,13 @@
 <template>
-  <div id="app" class="h-screen w-screen">
+  <div
+    id="app"
+    class="h-screen w-screen"
+  >
     <router-view v-slot="{ Component }">
-      <Transition name="fade" mode="out-in">
+      <Transition
+        mode="out-in"
+        name="fade"
+      >
         <component :is="Component" />
       </Transition>
     </router-view>

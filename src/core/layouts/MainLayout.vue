@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-import AppNavbar from '@/components/App/Navbar.vue'
+import AppNavbar from '@/core/components/App/Navbar.vue'
 
 defineOptions({
   name: 'MainLayout',

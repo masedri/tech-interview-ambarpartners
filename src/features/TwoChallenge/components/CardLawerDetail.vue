@@ -24,7 +24,7 @@
   </div>
 </template>
 <script setup lang="ts">
-import type { Lawer } from '@/types'
+import type { Lawer } from '@/features/TwoChallenge/types/'
 
 const props = defineProps<{
   lawerDetail: Lawer

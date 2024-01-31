@@ -1,12 +1,11 @@
 DownDown
 <template>
   <MainLayout>
-    <div
-      class="text-secondary text-3xl xl:text-5xl capitalize h-20 font-nothing justify-center flex items-center"
+    <div class="text-secondary text-3xl xl:text-5xl capitalize h-20 font-nothing justify-center flex items-center">Frontend challenge</div>
+    <Transition
+      mode="out-in"
+      name="fade"
     >
-      Frontend challenge
-    </div>
-    <Transition name="fade" mode="out-in">
       <div
         :key="currentStep"
         class="flex flex-col items-center justify-center my-5"
@@ -20,25 +19,18 @@ DownDown
           </Down>
         </div>
         <div class="flex flex-col items-center justify-center mb-10 gap-5">
-          <StepInfo
-            :html-content="STEPS[currentStep as keyof typeof STEPS]"
-          ></StepInfo>
+          <StepInfo :html-content="STEPS[currentStep as keyof typeof STEPS]"></StepInfo>
           <div
             v-if="currentStep > 0"
             class="flex items-center justify-between text-secondary px-4 py-2 cursor-pointer font-nothing border stroke-secondary text-2xl hover:bg-secondary hover:text-white border-current"
             @click="
               $router.push({
-                name: routesChallenges[
-                  currentStep as keyof typeof routesChallenges
-                ].route,
+                name: routesChallenges[currentStep as keyof typeof routesChallenges].route,
               })
             "
           >
             <div class="flex items-center">
-              <span>{{
-                routesChallenges[currentStep as keyof typeof routesChallenges]
-                  .name
-              }}</span>
+              <span>{{ routesChallenges[currentStep as keyof typeof routesChallenges].name }}</span>
             </div>
           </div>
         </div>
@@ -57,8 +49,8 @@ DownDown
 import { ref } from 'vue'
 
 import Down from '@/assets/icons/down.svg'
-import StepInfo from '@/components/StepInfo.vue'
-import MainLayout from '@/layouts/MainLayout.vue'
+import MainLayout from '@/core/layouts/MainLayout.vue'
+import StepInfo from '@/features/StepperIntro/components/StepInfo.vue'
 
 const currentStep = ref(0)
 const nextStep = () => currentStep.value++

@@ -1,6 +1,6 @@
 import { computed, reactive, ref } from 'vue'
 
-import type { Form } from '@/core/types'
+import type { Form } from '@/features/OneChallenge/types'
 
 const MIN_PASSWORD_LENGTH = 8
 

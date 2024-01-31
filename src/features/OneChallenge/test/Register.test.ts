@@ -1,8 +1,8 @@
 import { VueWrapper, mount } from '@vue/test-utils'
 import { describe, it, expect, vi } from 'vitest'
 
-import { composableRegister } from '@/composables/register'
-import RegisterFormView from '@/views/RegisterFormView.vue'
+import { composableRegister } from '@/features/OneChallenge/composables/register'
+import RegisterFormView from '@/features/OneChallenge/views/RegisterFormView.vue'
 
 const { form, isValidName, isValidEmail, isPasswordValid, isPasswordMatch, isValidForm, confirmPassword } = composableRegister()
 

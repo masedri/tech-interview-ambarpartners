@@ -1,8 +1,8 @@
 import { mount } from '@vue/test-utils'
 import { describe, it, expect } from 'vitest'
 
-import { generateRamdonLawers } from '@/core/utils'
-import LawersDetailView from '@/views/LawersDetailView.vue'
+import LawersDetailView from '@/features/TwoChallenge/LawersDetailView.vue'
+import { generateRamdonLawers } from '@/features/TwoChallenge/utils/'
 
 describe('LawersDetailView', () => {
   it('changes isList to false and updates lawerDetail on detailLawer method call', async () => {

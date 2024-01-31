@@ -1,12 +1,5 @@
 import type { SexType } from '@faker-js/faker'
 
-export type Form = {
-  name: string
-  email: string
-  password: string
-}
-export type ValidMessage = Form & { confirmPassword: string }
-
 export type Lawer = {
   id: string
   personalInfo: PersonalInfo

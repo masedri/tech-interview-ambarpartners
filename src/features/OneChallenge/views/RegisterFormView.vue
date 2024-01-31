@@ -59,10 +59,10 @@
   </MainLayout>
 </template>
 <script setup lang="ts">
-import InputAP from '@/components/InputAP.vue'
-import { composableRegister } from '@/composables/register'
-import MainLayout from '@/layouts/MainLayout.vue'
-import type { ValidMessage } from '@/types'
+import MainLayout from '@/core/layouts/MainLayout.vue'
+import InputAP from '@/features/OneChallenge/components/InputAP.vue'
+import { composableRegister } from '@/features/OneChallenge/composables/register'
+import type { ValidMessage } from '@/features/OneChallenge/types'
 /*
 Reto 1: Validación de formularios
 

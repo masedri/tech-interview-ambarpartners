@@ -55,12 +55,11 @@
 import { ref } from 'vue'
 
 import Down from '@/assets/icons/down.svg'
-import { generateRamdonLawers } from '@/utils'
-
-import CardLawer from '@/components/CardLawer.vue'
-import CardLawerDetail from '@/components/CardLawerDetail.vue'
-import MainLayout from '@/layouts/MainLayout.vue'
-import type { Lawer } from '@/types'
+import MainLayout from '@/core/layouts/MainLayout.vue'
+import CardLawer from '@/features/TwoChallenge/components/CardLawer.vue'
+import CardLawerDetail from '@/features/TwoChallenge/components/CardLawerDetail.vue'
+import type { Lawer } from '@/features/TwoChallenge/types'
+import { generateRamdonLawers } from '@/features/TwoChallenge/utils/'
 
 /*
 Reto 2: Vista de Datos del Usuario.
@@ -123,4 +122,3 @@ const goToListView = () => {
   opacity: 0;
 }
 </style>
-@/core/types @/core/utils
